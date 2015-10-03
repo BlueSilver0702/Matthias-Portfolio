@@ -1,0 +1,55 @@
+.slider {
+    -ms-touch-action: pan-y; /* Prevent default touch actions on Windows 8. Only required for IE10 */
+    position: relative;
+    touch-action: pan-y; /* Prevent default touch actions on Windows 8. Supported in IE11+ */
+}
+.as-prev-arrow,
+.as-next-arrow {
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    height: 67px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 100%;
+    top: 47%;
+    white-space: nowrap;
+    width: 50px;
+    z-index: 2000;
+}
+.as-prev-arrow {
+    left: 0;
+    background: url(../images/arrow-slide-left.png) no-repeat;
+}
+.as-next-arrow {
+    background: url(../images/arrow-slide-right.png) no-repeat;
+    right: 0;
+}
+.slider:hover .as-prev-arrow,
+.slider:hover .as-next-arrow {
+    filter: alpha(opacity=1);
+    opacity: 1;
+}
+.as-nav {
+    bottom: 15px;
+    left: 50%;
+    margin-left: -27px;
+    position: absolute;
+    text-align: left;
+    width: 80px;
+    z-index: 2000;
+}
+.as-nav a {
+    background-color: rgba(255,255,255,0.5);
+    height: 8px;
+    display: inline-block;
+    margin: 0 5px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 8px;
+    border-radius:50%;
+}
+.as-nav a.as-active, .as-nav a:hover {
+    background: #fff;
+}

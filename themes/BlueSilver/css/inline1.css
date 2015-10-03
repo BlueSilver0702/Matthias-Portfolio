@@ -1,0 +1,160 @@
+a,
+.sprocket-lists-title:hover,
+.sprocket-lists li.active .sprocket-lists-title,
+.horizmenu ul.menu > li a:hover,
+.main-body-dark #rt-copyright a:hover,
+.main-body-light #rt-copyright .horizmenu .module-content ul.menu > li a:hover,
+.main-body-light #rt-copyright .horizmenu .module-content ul.menu li .separator:hover,
+.main-body-light #rt-copyright .horizmenu .module-content ul.menu li .nolink:hover,
+.sprocket-features-title a:hover {
+    color: #4FA968;
+}
+.button,
+.readon,
+.readmore,
+button.validate,
+#member-profile a,
+#member-registration a,
+.formelm-buttons button,
+.box3.rt-block,
+ul.menu,
+.rt-totop:hover,
+.sprocket-headlines-navigation .arrow:hover,
+.layout-slideshow .sprocket-features-arrows .arrow:hover,
+.sprocket-lists-arrows .arrow:hover,
+.title1 .mod-hex,
+.layout-slideshow .readon:hover,
+.main-body-dark.logo-type-fracture .logo-color,
+.box3.title1 .title,
+.box3.title3 .title {
+    background-color: #4FA968;
+}
+.sprocket-mosaic-image-container:hover,
+.sprocket-mosaic-content:hover .sprocket-mosaic-image-container {
+    background-color: rgba(79, 169, 104, 0.7);
+}
+.login-fields #username:focus,
+.login-fields #password:focus,
+#contact-form dd input:focus,
+#contact-form dd textarea:focus,
+#modlgn-username:focus,
+#modlgn-passwd:focus,
+input#jform_email:focus,
+#rokajaxsearch .inputbox:focus,
+#member-registration dd input:focus,
+#search-searchword:focus,
+.finder .inputbox:focus {
+    border: 1px solid #4FA968;
+    box-shadow: inset 0 1px 3px rgba(79, 169, 104, 0.3), 0 0 8px rgba(79, 169, 104, 0.6);
+}
+body ul.checkmark li::after,
+body ul.circle-checkmark li::before,
+body ul.square-checkmark li::before,
+body ul.circle-small li::after,
+body ul.circle li::after,
+body ul.circle-large li::after,
+.sprocket-headlines-badge::after {
+    border-color: #4FA968;
+}
+body ul.triangle-small li::after,
+body ul.triangle li::after,
+body ul.triangle-large li::after {
+    border-color: transparent transparent transparent #4FA968;
+}
+.title4 .title {
+    border-color: #4FA968;
+}
+.menutop li.root .item,
+.splitmenu .menutop li .item,
+.fusion-submenu-wrapper {
+    background-color: #4FA968;
+}
+.menutab1,
+.menutab7 {
+    background-color: #494941 !important;
+}
+.menutab2,
+.menutab8 {
+    background-color: #2E2E29 !important;
+}
+.menutab3,
+.menutab9 {
+    background-color: #4FA968 !important;
+}
+.menutab4,
+.menutab10 {
+    background-color: #3D8151 !important;
+}
+.menutab5,
+.menutab11 {
+    background-color: #80BECF !important;
+}
+.menutab6,
+.menutab12 {
+    background-color: #5C9EB0 !important;
+}
+#rt-logo {
+    background: url(/images/Logo_mp240.png) 50% 0 no-repeat !important;
+}
+#rt-logo {
+    width: 240px;
+    height: 134px;
+}
+
+.jt_quick_contact_form .text, .jt_quick_contact_form .textarea {
+    padding: 5px 10px;
+    height: 27px;
+    border: 1px solid #ddd;
+    color: #333;
+    background: url(../images/bginput.jpg) repeat-x bottom #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.jt_quick_contact_form .text {
+    width: 220px;
+}
+
+.jt_quick_contact_form .btn, .jt_quick_contact_form .text, .jt_quick_contact_form .textarea, .jt_quick_contact_form .blocks label.error, .jt_quick_contact_form .blocks label.ok {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.jt_quick_contact_form .btn {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    padding: 0 10px;
+    background: url(../images/bgbtn.jpg) repeat-x;
+    color: #565e62;
+    font-weight: bold;
+    font-size: 11px;
+    border: 1px solid #e1e0df;
+    outline: none;
+}
+
+.jt_quick_contact_form .blocks label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #666;
+}
+
+.jt_quick_contact_form .text, .jt_quick_contact_form .textarea {
+    padding: 5px 10px;
+    height: 27px;
+    border: 1px solid #ddd;
+    color: #333;
+    background: url(../images/bginput.jpg) repeat-x bottom #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.jt_quick_contact_form .textarea {
+    height: 150px;
+    width: 350px;
+}
